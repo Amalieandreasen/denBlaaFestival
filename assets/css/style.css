@@ -1,9 +1,21 @@
 /* defaults */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+/* font-family: "Roboto", sans-serif; */
 * {
     margin: 0;
 }
 
-:root {}
+:root {
+    --nav_fotter:#E8F2F6;
+    --bokse:#D8F2FD;
+    --knapper_orange:#E07721;
+    --knapper_blå:#00446E;
+    --hvid:#F7F7F7;
+    --sort:#222222;
+}
 
 h1,
 h2,
@@ -13,4 +25,143 @@ h5,
 h6,
 p {
     text-wrap: balance;
+    font-family: "Roboto", sans-serif;
+    color: var(--sort);
+}
+
+h1{
+    font-size: 44px;
+}
+
+p{
+    font-size: 15px;
+}
+
+body{
+    margin: 0;
+    background-color: var(--hvid);
+}
+
+
+
+
+/* nav style */
+
+
+nav{
+    background-color: var(--nav_fotter);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2em;
+}
+
+.menu{
+    width: 40px;
+    color: var(--knapper_blå);
+}
+
+/* forside start */
+
+.forside_hero{
+    background-image: url(/assets/img/pictures/forside_hero.png);
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forside_hero h1, .forside_hero h2  {
+    color: var(--hvid);
+    margin: 0;
+}
+
+.forside_introtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: 3rem;
+}
+
+.forside_introtext p:nth-of-type(3){
+    font-weight: bold;
+}
+
+.forside_juezzcrawl{
+    background-color: var(--bokse);
+    margin-inline: 3rem;
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forside_juezzcrawl h3{
+    margin:0;
+}
+
+.forside_juezzcrawl button{
+    background-color: var(--knapper_orange);
+    border: none;
+    color: var(--hvid);
+    width: 175px;
+    padding: 1rem;
+    font-size:16px ;
+    border-radius: 35px;
+    font-weight:600;
+}
+
+.entrypoint_program{
+    background-image: url(/assets/img/pictures/entrypoints_program.png);
+    background-size: cover;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 3rem;
+}
+
+.entrypoint_spillesteder{
+    background-image: url(/assets/img/pictures/entrypoints_spillesteder.png);
+    background-size: cover;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.entrypoint_kunstnere{
+    background-image: url(/assets/img/pictures/entrypoints_kuntstnere.png);
+    background-size: cover;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 3rem;
+}
+
+.entrypoints h3{
+    color: var(--hvid);
+    font-size: 23px;
+    margin: 0.5rem;
+}
+
+footer{
+    background-color: var(--nav_fotter);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+footer p{
+    margin: 0;
+    margin-bottom: 1rem;
 }
