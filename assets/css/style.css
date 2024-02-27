@@ -51,16 +51,87 @@ body{
 
 nav{
     background-color: var(--nav_fotter);
-    height: 100px;
+    padding: 1rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-inline: 2em;
 }
 
-.menu{
-    width: 40px;
-    color: var(--knapper_blå);
+/* burgermenu */
+/* inspiration taget fra denne youtube video: https://www.youtube.com/watch?v=aNDqzlAKmZc&ab_channel=Treehouse*/
+
+.off-menu{
+  background-color: var(--knapper_blå); 
+  height: 50vh; 
+  width: 100%;
+  max-width: 300px;
+  position: fixed;
+  right: -350px;
+  display: flex;
+  justify-content: center;
+  transition: 0.4s ease;
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  color: var(--hvid);
+}
+
+.off-menu ul{
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+.off-menu ul li{
+    margin-bottom: 2rem;
+}
+
+.off-menu a{
+    color: var(--hvid);
+}
+
+.off-menu.active{
+    right: 0;
+}
+
+.ham-menu{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+}
+
+.ham-menu span{
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: var(--knapper_blå);
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4 ease;
+}
+
+.ham-menu span:nth-child(1){
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3){
+    top: 75%;
+}
+
+.ham-menu.active span:nth-child(1){
+    top: 50%;
+    transform: translate(-50%, -50%)rotate(45deg);
+    background-color: var(--hvid);
+}
+
+.ham-menu.active span:nth-child(2){
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3){
+    top: 50%;
+   transform: translate(-50%, -50%)rotate(-45deg);
+   background-color: var(--hvid);
 }
 
 /* forside start */
