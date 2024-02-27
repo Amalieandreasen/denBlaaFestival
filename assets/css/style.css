@@ -108,6 +108,7 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     transition: .4 ease;
+    cursor: pointer;
 }
 
 .ham-menu span:nth-child(1){
