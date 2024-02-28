@@ -1,0 +1,25 @@
+h1 {
+    background-image: url(../img/pictures/om_festivallen_hero.png);
+    height: 144px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--hvid);
+}
+
+.omOs {
+    margin-inline: 3rem;
+    margin-bottom: 3rem;
+}
+
+.gratisFestival {
+    margin-inline: 3rem;
+    margin-bottom: 3rem;
+}
+
+.frivillige {
+    margin-inline: 3rem;
+    margin-bottom: 3rem;
+}
