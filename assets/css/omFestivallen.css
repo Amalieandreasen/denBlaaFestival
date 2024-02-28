@@ -1,3 +1,5 @@
+/* style af hero billede */
+
 h1 {
     background-image: url(../img/pictures/om_festivallen_hero.png);
     height: 144px;
@@ -9,6 +11,7 @@ h1 {
     color: var(--hvid);
 }
 
+/* style af forskellige section */
 .omOs {
     margin-inline: 3rem;
     margin-bottom: 3rem;
@@ -22,4 +25,23 @@ h1 {
 .frivillige {
     margin-inline: 3rem;
     margin-bottom: 3rem;
+}
+
+/* style af sponsorer */
+
+.sponsorer {
+    background-color: var(--bokse);
+    margin-inline: 3rem;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sponsorer h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sponsorer ul {
+    margin-bottom: 1rem;
 }
