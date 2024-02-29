@@ -11,7 +11,7 @@ handicapvenligt: true,
 location: "Strandvejen 19 9000 Aalborg",
 icons: {
     handicapvenligtIcon: "./assets/img/icons/wheelchair-move-solid.svg", 
-    madOgDrikkeIcon: "./assets/img/icons/wheelchair-move-solid.svg",
+    madOgDrikkeIcon: "./assets/img/icons/utensils-solid.svg",
     vinIcon: null, 
     udendørsIcon: null,
     drinksIcon: null
@@ -27,7 +27,7 @@ icons: {
     handicapvenligt: true,
     location: "Tolbod plads, 9000 Aalborg",
     icons: {
-        handicapvenligtIcon: "wheelchair-move.solid.svg", 
+        handicapvenligtIcon: "./assets/img/icons/wheelchair-move-solid.svg", 
         madOgDrikkeIcon: null,
         vinIcon: null, 
         udendørsIcon: "wheelchair-move.solid.svg",
@@ -44,7 +44,7 @@ icons: {
     handicapvenligt: true,
     location: "Gammeltorv, 9000 Aalborg",
     icons: {
-        handicapvenligtIcon: "wheelchair-move.solid.svg", 
+        handicapvenligtIcon: "./assets/img/icons/wheelchair-move-solid.svg", 
         madOgDrikkeIcon: null,
         vinIcon: null, 
         udendørsIcon: "wheelchair-move.solid.svg",
@@ -61,7 +61,7 @@ icons: {
     handicapvenligt: true,
     location: "Algade 54, 9000 Aalborg",
     icons: {
-        handicapvenligtIcon: "wheelchair-move.solid.svg", 
+        handicapvenligtIcon: "./assets/img/icons/wheelchair-move-solid.svg", 
         madOgDrikkeIcon: null,
         vinIcon: "./assets/img/icons/wine-glass-solid.svg", 
         udendørsIcon: null,
@@ -78,11 +78,11 @@ icons: {
     handicapvenligt: true,
     location: "Nytorv 8, 9000 Aalborg",
     icons: {
-        handicapvenligtIcon: "wheelchair-move.solid.svg", 
-        madOgDrikkeIcon: "wheelchair-move.solid.svg",
+        handicapvenligtIcon: "./assets/img/icons/wheelchair-move-solid.svg", 
+        madOgDrikkeIcon: "./assets/img/icons/utensils-solid.svg",
         vinIcon: null, 
         udendørsIcon: null,
-        drinksIcon: null
+        drinksIcon: "./assets/img/icons/martini-glass-solid.svg"
     }
 },
 ]
