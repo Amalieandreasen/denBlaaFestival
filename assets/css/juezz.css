@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+.heroBanner {
+    background-image: url(../img/pictures/juezz_crawl_hero.png);
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-size: cover;
+}
+.heroBanner p {
+    color: white;
+    text-align: center;
+}
+
+
+.buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    min-width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: var(--knapper_blå);
+    color: var(--hvid);
+    border-radius: 100px;
+    font-family: "Roboto", sans-serif;
+}
+
+button.selected {
+    background-color: var(--knapper_orange);
+}
+
+section:first-of-type {
+    margin-top: 10px;
+}
+
+section:not(:first-of-type) {
+    margin-top: 25px;
+}
+
+section {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.routeStop {
+    border-color: grey;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+h3:first-of-type{
+    margin-top: 25px;
+}
+.routeStop p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+img{
+    width: 90vw; 
+    margin-top: 10px;
+}
