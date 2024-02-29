@@ -7,3 +7,6 @@ popUpBox.classList.add("display");
 function closePopup(){
     popUpBox.classList.remove("display");
 };
+
+
+
