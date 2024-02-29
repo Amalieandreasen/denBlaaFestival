@@ -3,6 +3,11 @@ h1{
     justify-content: center;
 }
 
+.kunstnere_introtext p{
+    margin-left: 50px;
+    margin-top: 1rem;
+}
+
 .sorteringsknapper button{
     background-color: #00446E;
     color: #F7F7F7;
@@ -22,6 +27,10 @@ h1{
     gap: 1rem;
 }
 
+.sorteringsknapper button:nth-child(1){
+    background-color:#E07721;
+}
+
 .Kunstnere-card{
     background-color: var(--bokse);
     border-radius: 8px;
@@ -38,7 +47,7 @@ h1{
     margin-block: 1rem;
 }
 
-.læsmere, .læsmere_adam, .læsmere_advokaten{
+.læsmere, .læsmere_adam, .læsmere_advokaten, .læsmere_alain, .læsmere_all{
     margin-block: 1rem;
     background-color: #00446E;
     color: #F7F7F7;
@@ -47,6 +56,7 @@ h1{
     cursor: pointer;
     border-radius: 35px;
     padding: 1rem;
+    border: none;
 }
 
 .information{
@@ -58,7 +68,7 @@ h1{
     margin-bottom: 0.5rem;
 }
 
-.pop-up{
+.pop-up, .pop-up1, .pop-up2, .pop-up3{
     position: absolute;
     background-color: #F7F7F7;
     display: flex;
@@ -70,13 +80,14 @@ h1{
     top: -50%;
     visibility: hidden;
     z-index: 100;
+    border-radius: 8px;
 }
 
-.pop-up img{
+.pop-up img, .pop-up1 img, .pop-up2 img, .pop-up3 img{
     margin-top: 1rem;
 }
 
-.pop-up button{
+.pop-up button, .pop-up1 button, .pop-up2 button, .pop-up3 button{
     margin-block: 1rem;
     background-color: #00446E;
     color: #F7F7F7;
@@ -85,9 +96,10 @@ h1{
     cursor: pointer;
     border-radius: 35px;
     padding: 1rem;
+    border: none;
 }
 
 .display{
- top: 25%;   
+ top: 0%;   
  visibility: visible;
 }

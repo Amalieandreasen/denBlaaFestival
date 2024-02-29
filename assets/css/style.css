@@ -71,6 +71,11 @@ nav{
   font-family: "Roboto", sans-serif;
   font-size: 23px;
   color: var(--hvid);
+  z-index: 10;
+}
+
+span{
+    z-index: 20;
 }
 
 .off-menu ul{
