@@ -1,0 +1,93 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.sorteringsknapper button{
+    background-color: #00446E;
+    color: #F7F7F7;
+    font-size:16px ;
+    font-weight:600;
+    cursor: pointer;
+    width:173px;
+    border-radius: 35px;
+    padding: 1rem;
+    border: none;
+}
+
+.sorteringsknapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.Kunstnere-card{
+    background-color: var(--bokse);
+    border-radius: 8px;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.Kunstnere-card h3{
+    font-size: 23px;
+    margin-block: 1rem;
+}
+
+.læsmere, .læsmere_adam, .læsmere_advokaten{
+    margin-block: 1rem;
+    background-color: #00446E;
+    color: #F7F7F7;
+    font-size:16px ;
+    font-weight:600;
+    cursor: pointer;
+    border-radius: 35px;
+    padding: 1rem;
+}
+
+.information{
+    margin-top: 1rem;
+    padding-right: 8rem;
+}
+
+.information p{
+    margin-bottom: 0.5rem;
+}
+
+.pop-up{
+    position: absolute;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: #E07721 solid 2px;
+    top: -50%;
+    visibility: hidden;
+    z-index: 100;
+}
+
+.pop-up img{
+    margin-top: 1rem;
+}
+
+.pop-up button{
+    margin-block: 1rem;
+    background-color: #00446E;
+    color: #F7F7F7;
+    font-size:16px ;
+    font-weight:600;
+    cursor: pointer;
+    border-radius: 35px;
+    padding: 1rem;
+}
+
+.display{
+ top: 25%;   
+ visibility: visible;
+}

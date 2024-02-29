@@ -1,0 +1,106 @@
+:root {
+    --nav_fotter:#E8F2F6;
+    --bokse:#D8F2FD;
+    --knapper_orange:#E07721;
+    --knapper_blå:#00446E;
+    --hvid:#F7F7F7;
+    --sort:#222222;
+}
+
+/* h1 styling */
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Filter */
+.filter{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.filter button{
+    min-width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: var(--knapper_blå);
+    color: var(--hvid);
+    border-radius: 100px;
+    font-family: "Roboto", sans-serif;
+}
+button{
+    font-weight: 700;
+}
+button.selected{
+    background-color: var(--knapper_orange);
+}
+
+/* Legend */
+.legend{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.legend img{
+    height: 25px;
+    max-width: 25px;
+}
+.legend div{
+    display: flex;
+}
+.legend div p{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -40%);
+    margin-left: 10px;
+}
+.fill{
+    grid-column: 2/ -1;
+}
+
+/*  */
+article{
+    display: flex;
+    margin-top: 5px;
+    background-color: white;
+    position: relative;
+}
+h2{
+    font-size: 1.2rem;
+}
+article > img{
+    height: 150px;
+    
+}
+p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.programInfo{
+    margin-left: 10px;
+}
+.iconLine{
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.iconLine img{
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 25px;
+}
+.iconLine img:first-child{
+    margin-left: 10px;
+}
+
+section{
+    margin-top: 50px;
+}
