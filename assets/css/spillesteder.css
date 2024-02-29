@@ -1,0 +1,22 @@
+
+
+.sortering div{
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    margin: 10px;
+}
+
+
+.sortering button{
+    background-color: var(--knapper_orange);
+    border: none;
+    color: var(--hvid);
+    width: 175px;
+    padding: 1rem;
+    font-size:16px ;
+    border-radius: 35px;
+    font-weight:600;
+    cursor: pointer;
+}
