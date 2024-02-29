@@ -46,4 +46,17 @@ function closePopup3(){
     popUpBox3.classList.remove("display");
 };
 
+//Javascript til Brønderslev Big Band
+
+let popUpBox4 = document.getElementById("popUp4")
+
+function displayPopup4(){
+popUpBox4.classList.add("display");
+};
+
+function closePopup4(){
+    popUpBox4.classList.remove("display");
+};
+
+
 

@@ -47,7 +47,7 @@ h1{
     margin-block: 1rem;
 }
 
-.læsmere, .læsmere_adam, .læsmere_advokaten, .læsmere_alain, .læsmere_all{
+.læsmere, .læsmere_adam, .læsmere_advokaten, .læsmere_alain, .læsmere_all, .læsmere_bronderslev{
     margin-block: 1rem;
     background-color: #00446E;
     color: #F7F7F7;
@@ -68,7 +68,7 @@ h1{
     margin-bottom: 0.5rem;
 }
 
-.pop-up, .pop-up1, .pop-up2, .pop-up3{
+.pop-up, .pop-up1, .pop-up2, .pop-up3, .pop-up4{
     position: absolute;
     background-color: #F7F7F7;
     display: flex;
@@ -83,11 +83,11 @@ h1{
     border-radius: 8px;
 }
 
-.pop-up img, .pop-up1 img, .pop-up2 img, .pop-up3 img{
+.pop-up img, .pop-up1 img, .pop-up2 img, .pop-up3 img, .pop-up4 img{
     margin-top: 1rem;
 }
 
-.pop-up button, .pop-up1 button, .pop-up2 button, .pop-up3 button{
+.pop-up button, .pop-up1 button, .pop-up2 button, .pop-up3 button, .pop-up4 button{
     margin-block: 1rem;
     background-color: #00446E;
     color: #F7F7F7;
