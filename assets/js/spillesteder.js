@@ -119,8 +119,15 @@ function generateIconsHTML(icons) {
   */
 
 spillesteder.forEach(function (sted) {
+    let tmpClasses="";
+    if(sted.bar)tmpClasses +=" featureDrinks";
+    if(sted.madOgDrikke)tmpClasses +=" featureFood";
+    if(sted.vin)tmpClasses +=" featureVin";
+    if(sted.udendørs)tmpClasses +=" featureUdenfor";
+    if(sted.handicapvenligt)tmpClasses +=" featureHandicap";
+
     cardDivEl.innerHTML += `
-      <div class="cardDiv">
+      <div class="cardDiv ${tmpClasses}">
       <div class="spillested">
         <h3>${sted.name}</h3>
         <div>
