@@ -2,6 +2,7 @@ const spillesteder = [
 {
 name: "Kaffefair",
 picture: "spillesteder_kaffefair.png",
+//Disse booleans var et forsøg på at bruge bool til et en sorteringsmetode
 udendørs: false, 
 vin: false,
 madOgDrikke: true,
@@ -84,10 +85,15 @@ icons: {
         drinksIcon: null
     }
 },
-
 ]
 
 const cardDivEl = document.querySelector(".cardDiv"); 
+
+const madOgDrikkeBtnEl = document.querySelector('madOgDrikkeBtn');
+const barBtnEl = document.querySelector('barBtn');
+const vinbarBtnEl = document.querySelector('vinbarBtn');
+const udendøresBtnEl = document.querySelector('udendøresBtn');
+const handicapvenligBtnEl = document.querySelector('handicapvenligBtn');
 
 /* Her lavers en funktion til at kunne finde de forskellige ikoner til spillestederne*/
 function generateIconsHTML(icons) {
@@ -111,6 +117,7 @@ function generateIconsHTML(icons) {
   Vi bruger et forEach loop til at generere indhold på vores HTML side 
   Her bruges funktionen som blev lavet ovenover til at indsætte diverse ikoner hvis de ikke = null i arrayet
   */
+
 spillesteder.forEach(function (sted) {
     cardDivEl.innerHTML += `
       <div class="cardDiv">
@@ -129,30 +136,5 @@ spillesteder.forEach(function (sted) {
     `;
   });
 
-
-  function sorterSpillesteder(spillesteder) {
-    cardDivEl.innerHTML = '';
-    spillesteder.forEach(sted => {
-        cardDivEl.innerHTML += generateSpillested(sted);
-    })
-  }
-  
-  // Map button classes to corresponding property names
-  function mapClassToFilterKey(filterClass) {
-    switch (filterClass) {
-      case 'madOgDrikkeBtn':
-        return 'madOgDrikke';
-      case 'barBtn':
-        return 'bar'; 
-      case 'vinbarBtn':
-        return 'vin';
-      case 'udendøresBtn':
-        return 'udendørs';
-      case 'handicapvenligBtn':
-        return 'handicapvenligt';
-      default:
-        return null;
-    }
-  }
-  
-
+  //Denne skal kunne filtrere efter steder hvor madOgDrikke = true
+ 
