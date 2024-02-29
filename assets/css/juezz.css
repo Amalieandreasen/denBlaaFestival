@@ -61,7 +61,10 @@ h3:first-of-type{
     margin-bottom: 5px;
     margin-top: 5px;
 }
-img{
+img:not(nav img){
     width: 90vw; 
+    margin-top: 10px;
+}
+p{
     margin-top: 10px;
 }
