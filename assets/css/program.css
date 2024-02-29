@@ -63,7 +63,7 @@ button.selected{
     grid-column: 2/ -1;
 }
 
-/*  */
+/* Program article */
 article{
     display: flex;
     margin-top: 5px;
