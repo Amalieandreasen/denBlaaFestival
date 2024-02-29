@@ -2,11 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="Martin Winther Clausen / Gruppe " />
+    <meta
+      name="description"
+      content="Se alle kunstnere som spiller på den blå festival her" />
+    <meta name="keywords" content="kunstnere, den blå festival" />
+    <meta name="author" content="Den blå festival " />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Kunstnere</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon/" />
     <link rel="stylesheet" href="./assets/css/kunstnere.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -102,10 +104,10 @@
           <p>Lørdag d. 19 - kl. 19.30</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere_advokaten" onclick="displayPopup()">
+        <button class="læsmere_advokaten" onclick="displayPopup1()">
           Læs mere om bandet her
         </button>
-        <div class="pop-up" id="popUp">
+        <div class="pop-up1" id="popUp1">
           <img
             src="./assets/img/pictures/kunstnere/kunstnere_advokatens_new.png"
             alt="Advokatens New Orleans Jazzband" />
@@ -127,7 +129,7 @@
             Overlund: Klaver Henrik Hougesen: Trommer Ole Christiansen:
             Kontrabas
           </p>
-          <button onclick="closePopup()">luk</button>
+          <button onclick="closePopup1()">luk</button>
         </div>
       </section>
       <section class="Kunstnere-card">
@@ -141,12 +143,35 @@
           <p>Lørdag d. 19 - kl. 21.00</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_alain" onclick="displayPopup2()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up2" id="popUp2">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_alainapaloo.png"
+            alt="Alain Apaloo Trio" />
+          <h3>Alain Apaloo Trio</h3>
+          <p>
+            Bandet spiller et mix af Vestafrikansk Ørkenblues, Blues og Gospel.
+            Genren kan beskrives som “trance blues” eller “ørkenblues”, som er
+            kendetegnet ved inciterende rytmer og en funky bund som svinger som
+            ind i h….
+          </p>
+          <p>
+            Musikken er på en gang fængslende, hypnotiserende og beroligende,
+            men samtidig pågående og fuld af sprudlende energi.
+          </p>
+          <p>
+            Alain Apaloo (Togo): Vokal/guitar/bas Olav Poulsen (DK): Slide Sal
+            Dibba (Gambia): Djembe & percussionntrabas
+          </p>
+          <button onclick="closePopup2()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>All Time Jazz Band</h3>
         <img
-          src="./assets/img/pictures/kunstnere/kunstnere_alainapaloo.png"
+          src="./assets/img/pictures/kunstnere/kunstnere_all_time_jazz.png"
           alt="All Time Jazz Band" />
         <div class="information">
           <p>Genre: Jazz</p>
@@ -154,7 +179,24 @@
           <p>Lørdag d. 19 - kl. 14.00</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_all" onclick="displayPopup3()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up3" id="popUp3">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_all_time_jazz.png"
+            alt="All Time Jazz Band" />
+          <h3>All Time Jazz Band</h3>
+          <p>
+            All Time Jazz Band spiller musik med rødder i New Orleans.
+            Repertoiret er stort og bredt, og foruden de kendte klassikere har
+            bandet gravet numre op, som man ikke ellers hører, gerne med et par
+            overraskelser til de efterhånden mange trofaste fans. Der er musik
+            til både kendere og elskere af jazz, og til de, der troede, de ikke
+            syntes om jazz.
+          </p>
+          <button onclick="closePopup3()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Brønderslev Big Band</h3>
@@ -167,7 +209,25 @@
           <p>Torsdag d. 17 - kl. 16.00</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_bronderslev" onclick="displayPopup4()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up4" id="popUp4">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_brønderslev_big.png"
+            alt="Brønderslev Big Band" />
+          <h3>Brønderslev Big Band</h3>
+          <p>
+            Brønderslev Bigband har eksisteret i snart 40 år og har musikere med
+            fra hele landsdelen. Bandet har hvert år flere koncerter i
+            landsdelen og har også spillet i bl.a. Berlin. Brønderslev Bigband
+            er velspillende, med kapelmester Morten Lund Sletten Larsens
+            suveræne greb om bigband traditionen. Repertoiret er krydret med
+            sangnumre i Sinatra- og nutidige Michael Boublé-stilen, med vores
+            egen crooner Allan Vester Lassen.
+          </p>
+          <button onclick="closePopup4()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Creole Catz</h3>
@@ -180,7 +240,29 @@
           <p>Fredag d. 18 - kl. 19.30</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_creole" onclick="displayPopup5()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up5" id="popUp5">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_creole_catz.png"
+            alt="Creole Catz" />
+          <h3>Creole Catz</h3>
+          <p>
+            Et forrygende, festligt arrangement er serveret med Creole Catz’
+            medrivende og brede jazz- og boogie-repertoire. Der spilles bl.a.
+            Louis Armstrong, Louis Prima og Louis Jordans swingende rytmer
+            iblandet Just/ Frost New Orleans rytmer og Lillers og Buernes danske
+            evergreens. Dette, kombineret med flerstemmig sang og swingende
+            arrangementer, giver publikum en herlig jazzoplevelse.
+          </p>
+          <p>
+            Stig Fisker: Trompet, guitar, banjo og vokal Kim Jensen: Klarinet,
+            tenorsax og vokal Nicolai Øgendahl Brandt: Piano og vokal Ivan
+            Laugesen: Kontrabas Mads Holck Mogensen: Trommer og vokal
+          </p>
+          <button onclick="closePopup5()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Downshifters</h3>
@@ -193,7 +275,28 @@
           <p>Fredag d. 18 - kl. 15.00</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_downshifters" onclick="displayPopup6()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up6" id="popUp6">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_downshifters.png"
+            alt="Downshifters" />
+          <h3>Downshifters</h3>
+          <p>
+            The DownShifters er en to-mands trio, der spiller blues- og
+            rootsmusik. Med guitar, banjo, mundharpe, bas og fod-trommer
+            fremfører de originale sange skrevet med stor inspiration i de gamle
+            amerikanske musiktraditioner - helt fra akustisk/elektrisk delta
+            blues til banjobaseret old-time. Duoen består af brødrene Bjerre,
+            der har en lang historie som aktører i det østjyske musikmiljø.
+          </p>
+          <p>
+            Sune Bjerre: Guitar, banjo, sang og mundharpe Kasper Bjerre: Bas,
+            sang og fodtrommer
+          </p>
+          <button onclick="closePopup6()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>East Harbour Jazz Band</h3>
@@ -206,7 +309,28 @@
           <p>Lørdag d. 19 - kl. 16.45</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_east" onclick="displayPopup7()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up7" id="popUp7">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_east_harbour.png"
+            alt="East Harbour Jazz Band" />
+          <h3>East Harbour Jazz Band</h3>
+          <p>
+            East Harbour Jazz Band forstår at sprede glæden ved jazzmusikken.
+            Bandet består af rutinerede og entusiastiske jazzveteraner fra
+            Nordjylland. De spiller en glad swingende jazzmusik, hvis rødder i
+            New Orleans- og Dixieland jazzen altid er tydelige.
+          </p>
+          <p>
+            Jesper Gram-Hansen: Klarinet Niels J. ,,NISSE’’ Christensen:
+            Trombone
+          </p>
+          <p>Brian Toft: Kornet/vokal Jan Holmgaard: Trommer</p>
+          <p>Brian Bützau Olsen: Sousafon Per Foldberg: Banjo</p>
+          <button onclick="closePopup7()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Herøya Musikkorps Street Parade</h3>
@@ -219,20 +343,64 @@
           <p>Lørdag d. 19 - kl. 12.00</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_heroya" onclick="displayPopup8()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up8" id="popUp8">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_heroya_musikkoprs.png"
+            alt="Herøya Musikkorps Street Parade" />
+          <h3>Herøya Musikkorps Street Parade</h3>
+          <p>
+            Street Parade, Start fra Holles Vinstue, Algade 57 via Gravensgade,
+            Bispensgade, Nytorv og slutter på jazz-scenen på Gammel Torv.
+          </p>
+          <p>
+            De populære nordmænd/damer går gennem midtbyen og skaber en festlig
+            optakt til lørdagens jazz-musik på Gammel Torv.
+          </p>
+          <button onclick="closePopup8()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
-        <h3>Ice Mo’ & The Hydecoolers</h3>
+        <h3>Ice Mo’ & The Zydecoolers</h3>
         <img
           src="./assets/img/pictures/kunstnere/kunstnere_ice_mo_hydecoolers.png"
-          alt="Ice Mo’ & The Hydecoolers" />
+          alt="Ice Mo’ & The Zydecoolers" />
         <div class="information">
           <p>Genre: Blues</p>
           <p>Bluesscenen</p>
           <p>Fredag d. 18 - kl. 17.30</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_ice" onclick="displayPopup9()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up9" id="popUp9">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_ice_mo_hydecoolers.png"
+            alt="Ice Mo’ & The Zydecoolers" />
+          <h3>Ice Mo’ & The Zydecoolers</h3>
+          <p>
+            Showet er fyldt med energi og glad musik, der giver dig lyst til at
+            danse. Ismo “Ice Mo’ “ Haavisto er kendt som bluesmusiker, en
+            uovertruffen sanger, guitarist og harmonikaspiller. Og så ind
+            imellem tager han den traditionelle one-row-button-accordion og
+            spiller Zydeco.
+          </p>
+          <p>
+            Ismo har skrevet mange Zydeconumre gennem årene, og det er dem du
+            skal høre i dag. Det er også en tradition indenfor zydeco at
+            inkludere familiemedlemmer i bandet, og The Zydecoolers har således
+            Ismos søn Ukko og hans nevø Oskari som medlemmer.
+          </p>
+          <p>
+            Ismo “Ice Mo’ “ Haavisto: Vocal, zydeco accordion, harmonica Ukko
+            “Yucco” Haavisto: Drums Oskari “Oscar” Haavisto: Guitar Ville “Wet
+            Willie” Vallila: Bass Matias “Washboard Matt” Partanen: Washboard
+          </p>
+          <button onclick="closePopup9()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Kant</h3>
@@ -245,7 +413,36 @@
           <p>Fredag d. 18 - kl. 20.00</p>
           <p>Entre: 50kr.</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_kant" onclick="displayPopup10()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up10" id="popUp10">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_kant.png"
+            alt="Kant" />
+          <h3>Kant</h3>
+          <p>
+            Kant er et auditivt kunstprojekt skabt af Rasmus Frandsen og Erik
+            Michaelsen. Projektet figurerer i spektret mellem musik og lydkunst
+            og bestræber sig også på at udviske grænsen mellem disse to
+            begreber. Ved brug af selvskabte elektroakustiske instrumenter og
+            konventionelle instrumenter skaber Kant improviserede værker.
+          </p>
+          <p>
+            Improvisationerne kan være inspireret af vores omgivelser, konkrete
+            emner eller en udefrakommende tredjepart. Udtrykket af vores værker,
+            vil være tanke- og følelsesvækkende for publikum, og bestræber sig
+            på at få lytteren til at fokusere og tage stilling til hvad
+            vedkommende oplever.
+          </p>
+          <p>
+            Det ultimative mål er at få lytteren til at føle eller opleve noget,
+            som vedkommende ikke har oplevet før, med et ønske om, at lytteren
+            får en oplevelse som er fuldkommen umiddelbar med minimale
+            forudindtagelser.
+          </p>
+          <button onclick="closePopup10()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Shadow Government</h3>
@@ -258,7 +455,25 @@
           <p>Torsdag d. 17 - kl. 18.30</p>
           <p>Entre: 50kr.</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_shadow" onclick="displayPopup11()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up11" id="popUp11">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_shadow_government.png"
+            alt="Shadow Government" />
+          <h3>Shadow Government</h3>
+          <p>
+            Musikken strækker sig lige fra virtuose energiudbrud til inderlige
+            smukke ballader. Deres exceptionelle sammenspil kan gå alle veje,
+            derfor er det aldrig til at vide, hvor deres musikalske historier
+            fører hen. I tillid til at alt kan opstå ud af næsten ingenting, har
+            musikerne opnået et telepatisk sammenspil og overskud i komplicerede
+            musikalske fortællinger.
+          </p>
+          <p>Matias Fischer: Trommer Mads Houe: Bas Carsten Kær: Klaver</p>
+          <button onclick="closePopup11()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Tomi Leino Trio</h3>
@@ -271,7 +486,26 @@
           <p>Fredag d. 18 - kl. 15.30</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_tomi" onclick="displayPopup12()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up12" id="popUp12">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_tomi_leino_trio.png"
+            alt="Tomi Leino Trio" />
+          <h3>Tomi Leino Trio</h3>
+          <p>
+            Finske Tomi Leino Trio er et af de mest succesrige roots- og
+            bluesbands i Norden i nyere tid. Bandets sound bygger på elementer
+            fra bla. Louisiana swamp blues og rock’n’roll med respekt for
+            klassisk bluessound men med et personligt og frisk touch.
+          </p>
+          <p>
+            Tomi Leino: Vokal, guitar, harpe Jaska Prepula: Bas, vokal Mikko
+            Peltola: Trommer
+          </p>
+          <button onclick="closePopup12()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Uni Debess Band</h3>
@@ -284,7 +518,25 @@
           <p>Fredag d. 18 - kl. 20.00</p>
           <p>Entre: 50kr.</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_uni" onclick="displayPopup13()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up13" id="popUp13">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_uni_debess.png"
+            alt="Uni Debess Band" />
+          <h3>Uni Debess Band</h3>
+          <p>
+            Uni Debess er en fremragende bluesmusiker fra Færøerne. Hans musik
+            kombinerer traditionelle bluesrødder med unikke færøske elementer.
+            Debess’ kraftfulde stemme og virtuose guitarspil har gjort ham til
+            en bemærkelsesværdig kunstner. Han har optrådt på internationale
+            festivaler og hans sange fortæller historier, der berører sjælen.
+            Uni Debess er en bluesperle fra Nordatlanten.
+          </p>
+
+          <button onclick="closePopup13()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Vestbyens Blues Band</h3>
@@ -297,7 +549,22 @@
           <p>Lørdag d. 19 - kl. 16.00</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_vestbyen" onclick="displayPopup14()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up14" id="popUp14">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_vestbyens_blues.png"
+            alt="Vestbyens Blues Band" />
+          <h3>Vestbyens Blues Band</h3>
+          <p>
+            Ny konstellation af musikere fra forskellige sammenhænge. Primært
+            fra Aalborg vestby, der spilles chicago og jump blues. Kendte numre
+            i egne fortolkninger, med et dansevenligt twist.
+          </p>
+
+          <button onclick="closePopup14()">luk</button>
+        </div>
       </section>
     </main>
     <footer>
