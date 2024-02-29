@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/kunstnere.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="./assets/js/app.js" defer></script>
+    <script src="./assets/js/kunstnere.js" defer></script>
   </head>
   <body>
     <header>
@@ -62,7 +63,33 @@
           <p>Lørdag d. 19 - kl. 12.00</p>
           <p>Entre: Gratis</p>
         </div>
-        <button class="læsmere">Læs mere om bandet her</button>
+        <button class="læsmere_adam" onclick="displayPopup()">
+          Læs mere om bandet her
+        </button>
+        <div class="pop-up" id="popUp">
+          <img
+            src="./assets/img/pictures/kunstnere/kunstnere_adam_karch.png"
+            alt="Adam Karch" />
+          <h3>Adam Karch</h3>
+          <p>
+            Adam Karch er en fremragende bluesmusiker fra Canada. Hans dygtighed
+            som guitarist og hans unikke stemme gør ham til en bemærkelsesværdig
+            kunstner.
+          </p>
+          <p>
+            Han har etableret sig som en af Canadas mest talentfulde og
+            respekterede blueskunstnere, og kommer til Aalborg med en frisk
+            award i bagagen. Karch vandt således dette års pan-kontinentale
+            blueskonkurrence International Blues Challenge i kategorien Memphis
+            Guitar Box Award (Best Solo/ Duo Guitarist).
+          </p>
+          <p>
+            Der er således lagt op til gedigen blues med afsæt i de klassiske
+            rødder, og tillige et par overraskelser når Karch træder ind på
+            scenen.
+          </p>
+          <button onclick="closePopup()">luk</button>
+        </div>
       </section>
       <section class="Kunstnere-card">
         <h3>Advokatens New Orleans Jazzband</h3>
