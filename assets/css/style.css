@@ -60,7 +60,7 @@ nav{
 
 .off-menu{
   background-color: var(--knapper_blå); 
-  height: 50vh; 
+  height: 500px; 
   width: 100%;
   max-width: 300px;
   position: fixed;
@@ -164,6 +164,7 @@ nav{
 
 .forside_introtext p:nth-of-type(3){
     font-weight: bold;
+    font-size: 19px;
 }
 
 .forside_juezzcrawl{
@@ -183,7 +184,7 @@ nav{
 }
 
 .forside_juezzcrawl button{
-    background-color: var(--knapper_orange);
+    background-color: var(--knapper_blå);
     border: none;
     color: var(--hvid);
     width: 175px;
