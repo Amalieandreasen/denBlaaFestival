@@ -127,6 +127,50 @@ function closePopup10(){
     popUpBox10.classList.remove("display");
 };
 
+//Javascript til Shadow Government
+let popUpBox11 = document.getElementById("popUp11")
+
+function displayPopup11(){
+popUpBox11.classList.add("display");
+};
+
+function closePopup11(){
+    popUpBox11.classList.remove("display");
+};
+
+//Javascript til Tomi Leino Trio
+let popUpBox12 = document.getElementById("popUp12")
+
+function displayPopup12(){
+popUpBox12.classList.add("display");
+};
+
+function closePopup12(){
+    popUpBox12.classList.remove("display");
+};
+
+//Javascript til Uni Debess Band
+let popUpBox13 = document.getElementById("popUp13")
+
+function displayPopup13(){
+popUpBox13.classList.add("display");
+};
+
+function closePopup13(){
+    popUpBox13.classList.remove("display");
+};
+
+//Javascript til Vestbyens Blues Band
+let popUpBox14 = document.getElementById("popUp14")
+
+function displayPopup14(){
+popUpBox14.classList.add("display");
+};
+
+function closePopup14(){
+    popUpBox14.classList.remove("display");
+};
+
 
 
 

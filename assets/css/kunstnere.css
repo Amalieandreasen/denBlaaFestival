@@ -47,7 +47,7 @@ h1{
     margin-block: 1rem;
 }
 
-.læsmere, .læsmere_adam, .læsmere_advokaten, .læsmere_alain, .læsmere_all, .læsmere_bronderslev, .læsmere_creole, .læsmere_downshifters, .læsmere_east, .læsmere_heroya, .læsmere_ice, .læsmere_kant{
+.læsmere, .læsmere_adam, .læsmere_advokaten, .læsmere_alain, .læsmere_all, .læsmere_bronderslev, .læsmere_creole, .læsmere_downshifters, .læsmere_east, .læsmere_heroya, .læsmere_ice, .læsmere_kant, .læsmere_shadow, .læsmere_tomi, .læsmere_uni, .læsmere_vestbyen{
     margin-block: 1rem;
     background-color: #00446E;
     color: #F7F7F7;
@@ -68,7 +68,7 @@ h1{
     margin-bottom: 0.5rem;
 }
 
-.pop-up, .pop-up1, .pop-up2, .pop-up3, .pop-up4, .pop-up5, .pop-up6, .pop-up7, .pop-up8, .pop-up9, .pop-up10{
+.pop-up, .pop-up1, .pop-up2, .pop-up3, .pop-up4, .pop-up5, .pop-up6, .pop-up7, .pop-up8, .pop-up9, .pop-up10, .pop-up11, .pop-up12,.pop-up13, .pop-up14 {
     position: absolute;
     background-color: #F7F7F7;
     display: flex;
@@ -83,11 +83,11 @@ h1{
     border-radius: 8px;
 }
 
-.pop-up img, .pop-up1 img, .pop-up2 img, .pop-up3 img, .pop-up4 img, .pop-up5 img, .pop-up6 img, .pop-up7 img, .pop-up8 img, .pop-up9 img, .pop-up10 img{
+.pop-up img, .pop-up1 img, .pop-up2 img, .pop-up3 img, .pop-up4 img, .pop-up5 img, .pop-up6 img, .pop-up7 img, .pop-up8 img, .pop-up9 img, .pop-up10 img, .pop-up11 img, .pop-up12 img,.pop-up13 img, .pop-up14 img{
     margin-top: 1rem;
 }
 
-.pop-up button, .pop-up1 button, .pop-up2 button, .pop-up3 button, .pop-up4 button, .pop-up5 button, .pop-up6 button, .pop-up7 button, .pop-up8 button, .pop-up9 button, .pop-up10 button{
+.pop-up button, .pop-up1 button, .pop-up2 button, .pop-up3 button, .pop-up4 button, .pop-up5 button, .pop-up6 button, .pop-up7 button, .pop-up8 button, .pop-up9 button, .pop-up10 button, .pop-up11 button, .pop-up12 button, .pop-up13 button, .pop-up14 button{
     margin-block: 1rem;
     background-color: #00446E;
     color: #F7F7F7;
