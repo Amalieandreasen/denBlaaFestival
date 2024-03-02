@@ -30,7 +30,7 @@ icons: {
         handicapvenligtIcon: "./assets/img/icons/wheelchair-move-solid.svg", 
         madOgDrikkeIcon: null,
         vinIcon: null, 
-        udendørsIcon: "wheelchair-move.solid.svg",
+        udendørsIcon: "./assets/img/icons/sun-icon.svg",
         drinksIcon: null
     }
 },
@@ -47,7 +47,7 @@ icons: {
         handicapvenligtIcon: "./assets/img/icons/wheelchair-move-solid.svg", 
         madOgDrikkeIcon: null,
         vinIcon: null, 
-        udendørsIcon: "wheelchair-move.solid.svg",
+        udendørsIcon: "./assets/img/icons/sun-icon.svg",
         drinksIcon: null
     }
 },
@@ -81,7 +81,7 @@ icons: {
         handicapvenligtIcon: "./assets/img/icons/wheelchair-move-solid.svg", 
         madOgDrikkeIcon: "./assets/img/icons/utensils-solid.svg",
         vinIcon: null, 
-        udendørsIcon: null,
+        udendørsIcon: "./assets/img/icons/sun-icon.svg",
         drinksIcon: "./assets/img/icons/martini-glass-solid.svg"
     }
 },
@@ -94,6 +94,8 @@ const barBtnEl = document.querySelector('barBtn');
 const vinbarBtnEl = document.querySelector('vinbarBtn');
 const udendøresBtnEl = document.querySelector('udendøresBtn');
 const handicapvenligBtnEl = document.querySelector('handicapvenligBtn');
+
+
 
 /* Her lavers en funktion til at kunne finde de forskellige ikoner til spillestederne*/
 function generateIconsHTML(icons) {
@@ -119,15 +121,8 @@ function generateIconsHTML(icons) {
   */
 
 spillesteder.forEach(function (sted) {
-    let tmpClasses="";
-    if(sted.bar)tmpClasses +=" featureDrinks";
-    if(sted.madOgDrikke)tmpClasses +=" featureFood";
-    if(sted.vin)tmpClasses +=" featureVin";
-    if(sted.udendørs)tmpClasses +=" featureUdenfor";
-    if(sted.handicapvenligt)tmpClasses +=" featureHandicap";
-
     cardDivEl.innerHTML += `
-      <div class="cardDiv ${tmpClasses}">
+      <div class="cardDiv">
       <div class="spillested">
         <h3>${sted.name}</h3>
         <div>
@@ -142,6 +137,85 @@ spillesteder.forEach(function (sted) {
       </div>
     `;
   });
+
+  
+
+  function getOutdoor(){
+  const cardDivEl = document.querySelector(".cardDiv"); 
+  const udendøresBtnEl = document.querySelector('udendøresBtn');
+  cardDivEl.innerHTML = '';
+    spillesteder.forEach(function(sted){
+      if(sted.udendørs){
+        getCardsSorting(sted);
+      }
+  });
+}
+
+function getMadOgDrikke(){
+  const cardDivEl = document.querySelector(".cardDiv"); 
+  const udendøresBtnEl = document.querySelector('udendøresBtn');
+  cardDivEl.innerHTML = '';
+    spillesteder.forEach(function(sted){
+      if(sted.madOgDrikke){
+        getCardsSorting(sted);
+      }
+  });
+}
+
+function getBar(){
+  const cardDivEl = document.querySelector(".cardDiv"); 
+  const udendøresBtnEl = document.querySelector('udendøresBtn');
+  cardDivEl.innerHTML = '';
+    spillesteder.forEach(function(sted){
+      if(sted.bar){
+        getCardsSorting(sted);
+      }
+  });
+}
+
+function getVin(){
+  const cardDivEl = document.querySelector(".cardDiv"); 
+  const udendøresBtnEl = document.querySelector('udendøresBtn');
+  cardDivEl.innerHTML = '';
+    spillesteder.forEach(function(sted){
+      if(sted.vin){
+        getCardsSorting(sted);
+      }
+  });
+}
+
+function getHandicap(){
+  const cardDivEl = document.querySelector(".cardDiv"); 
+  const udendøresBtnEl = document.querySelector('udendøresBtn');
+  cardDivEl.innerHTML = '';
+    spillesteder.forEach(function(sted){
+      if(sted.handicapvenligt){
+        getCardsSorting(sted);
+      }
+  });
+}
+
+
+
+
+  function getCardsSorting(sted){
+    
+    cardDivEl.innerHTML += `
+      <div class="cardDiv">
+      <div class="spillested">
+        <h3>${sted.name}</h3>
+        <div>
+          <img src="./assets/img/pictures/spillesteder/${sted.picture}" alt="">
+        </div>
+        <p>${sted.location}</p>
+        <div class="icons">
+          ${generateIconsHTML(sted.icons)}
+        </div>
+        <a href="#"><button>Se hele programmet her</button></a>
+        </div>
+      </div>
+    `;
+  }
 
   //Denne skal kunne filtrere efter steder hvor madOgDrikke = true
  
