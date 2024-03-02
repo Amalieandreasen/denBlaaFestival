@@ -81,6 +81,7 @@ h1{
     visibility: hidden;
     z-index: 100;
     border-radius: 8px;
+    transition: 0.3s all ease;
 }
 
 .pop-up img, .pop-up1 img, .pop-up2 img, .pop-up3 img, .pop-up4 img, .pop-up5 img, .pop-up6 img, .pop-up7 img, .pop-up8 img, .pop-up9 img, .pop-up10 img, .pop-up11 img, .pop-up12 img,.pop-up13 img, .pop-up14 img{
