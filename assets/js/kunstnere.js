@@ -1,13 +1,16 @@
 //Javascript til Adam Karch
+// lav en variabel som kaldes popUpBox og henvis den til at den skal være i det element med id popUp
+let popUpBox = document.getElementById("popUp");
 
-let popUpBox = document.getElementById("popUp")
-
+// Her laver vi funktionen som der bliver henvist fra i html'en og hvis der bliver trykket på knappen og klassen display ikke er der vil den blive vist. 
 function displayPopup(){
-popUpBox.classList.add("display");
+popUpBox.classList.add("display")
 };
 
+// Her laver vi funktionen som der bliver henvist fra i html'en og hvis der bliver trykket på knappen og klassen display er der vil den blive fjernet. 
+
 function closePopup(){
-    popUpBox.classList.remove("display");
+    popUpBox.classList.remove("display")
 };
 
 //Javascript til Advokatens New Orleans Jazzband
