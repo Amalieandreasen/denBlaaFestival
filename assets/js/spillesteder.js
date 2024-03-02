@@ -89,13 +89,6 @@ icons: {
 
 const cardDivEl = document.querySelector(".cardDiv"); 
 
-const madOgDrikkeBtnEl = document.querySelector('madOgDrikkeBtn');
-const barBtnEl = document.querySelector('barBtn');
-const vinbarBtnEl = document.querySelector('vinbarBtn');
-const udendøresBtnEl = document.querySelector('udendøresBtn');
-const handicapvenligBtnEl = document.querySelector('handicapvenligBtn');
-
-
 
 /* Her lavers en funktion til at kunne finde de forskellige ikoner til spillestederne*/
 function generateIconsHTML(icons) {
