@@ -135,7 +135,6 @@ spillesteder.forEach(function (sted) {
 
   function getOutdoor(){
   const cardDivEl = document.querySelector(".cardDiv"); 
-  const udendøresBtnEl = document.querySelector('udendøresBtn');
   cardDivEl.innerHTML = '';
     spillesteder.forEach(function(sted){
       if(sted.udendørs){
@@ -146,7 +145,6 @@ spillesteder.forEach(function (sted) {
 
 function getMadOgDrikke(){
   const cardDivEl = document.querySelector(".cardDiv"); 
-  const udendøresBtnEl = document.querySelector('udendøresBtn');
   cardDivEl.innerHTML = '';
     spillesteder.forEach(function(sted){
       if(sted.madOgDrikke){
@@ -157,7 +155,6 @@ function getMadOgDrikke(){
 
 function getBar(){
   const cardDivEl = document.querySelector(".cardDiv"); 
-  const udendøresBtnEl = document.querySelector('udendøresBtn');
   cardDivEl.innerHTML = '';
     spillesteder.forEach(function(sted){
       if(sted.bar){
@@ -168,7 +165,6 @@ function getBar(){
 
 function getVin(){
   const cardDivEl = document.querySelector(".cardDiv"); 
-  const udendøresBtnEl = document.querySelector('udendøresBtn');
   cardDivEl.innerHTML = '';
     spillesteder.forEach(function(sted){
       if(sted.vin){
@@ -179,7 +175,6 @@ function getVin(){
 
 function getHandicap(){
   const cardDivEl = document.querySelector(".cardDiv"); 
-  const udendøresBtnEl = document.querySelector('udendøresBtn');
   cardDivEl.innerHTML = '';
     spillesteder.forEach(function(sted){
       if(sted.handicapvenligt){
