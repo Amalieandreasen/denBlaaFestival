@@ -125,7 +125,7 @@ spillesteder.forEach(function (sted) {
         <div class="icons">
           ${generateIconsHTML(sted.icons)}
         </div>
-        <a href="#"><button>Se hele programmet her</button></a>
+        <a href="./program.html"><button>Se hele programmet her</button></a>
         </div>
       </div>
     `;
