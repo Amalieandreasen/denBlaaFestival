@@ -1,14 +1,17 @@
- 
+h1{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .cardDiv{ 
     justify-content: center; 
     text-align: center; 
     padding-top: 2rem; 
     padding-bottom: 2rem; 
-    } 
-    
-     
-    
-    .cardDiv .spillested{ 
+} 
+
+.cardDiv .spillested{ 
     padding-top: 1rem; 
     padding-bottom: 1rem; 
     background-color: var(--bokse); 
@@ -17,11 +20,9 @@
     margin-left: 30px; 
     margin-right: 30px;  
     border-radius: 8px; 
-    } 
-    
-     
-    
-    .spillested button{ 
+} 
+
+.spillested button{ 
     background-color: var(--knapper_blå); 
     border: none; 
     color: var(--hvid); 
@@ -31,64 +32,34 @@
     border-radius: 35px; 
     font-weight:600; 
     cursor: pointer; 
-    } 
-    
-     
-    
-    .spillested h3{ 
+} 
+
+.spillested h3{ 
     font-size: 23px; 
     padding-bottom: 1rem; 
-    } 
-    
-     
-    
-    .icons img{ 
+} 
+
+.icons img{ 
     width: 25px; 
     height: 25px; 
     padding-left: 0.5rem; 
     padding-right: 0.5rem; 
     padding-bottom: 1rem; 
-    } 
-    
-     
-    
-    .sortering div{ 
+} 
+
+.sortering div{ 
     justify-content: center; 
     text-align: center; 
     margin-bottom: 1rem; 
     padding-left: 1rem; 
     margin: 10px; 
-    } 
-    
-     
-    
-    /* Den sidste knap. Skal lige se hvordan eg får den stylet så den ikke er centreret*/  
-    
-    /* .sortering div:nth-child(5) { 
-    
-    text-align: left; 
-    
-    } */ 
-    
-     
-    
-    .sortering h1{ 
-    padding-top: 2rem; 
-    padding-bottom: 1.2rem; 
-    text-align: center; 
-    padding-left: 1.5rem; 
-    } 
-    
-     
-    
-    .sortering p{ 
-    text-align: center; 
-    padding-left: 1.5rem; 
-    } 
-    
-     
-    
-    .sortering button{ 
+}
+
+.sortering p{ 
+    text-align: center;
+} 
+
+.sortering button{ 
     background-color: var(--knapper_blå); 
     border: none; 
     color: var(--hvid); 
@@ -98,7 +69,4 @@
     border-radius: 35px; 
     font-weight:600; 
     cursor: pointer; 
-    } 
-
-    
-     
+}

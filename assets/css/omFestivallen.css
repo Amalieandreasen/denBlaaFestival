@@ -2,14 +2,15 @@
 
 h1 {
     background-image: url(../img/pictures/om_festivallen_hero.png);
-    height: 144px;
+    height: 120px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     color: var(--hvid);
-    margin-bottom: 1rem;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 /* style af forskellige section */
